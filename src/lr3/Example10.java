@@ -1,7 +1,5 @@
 package lr3;
 
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -21,22 +19,21 @@ public class Example10 {
 
         System.out.println("");
 
-        for (int i = arrayInt.length; i >= 0; i++) {
+        for(int i = arrayInt.length - 1; i > 0 ; i--) {
             for (int j = 0; j < i; j++) {
                 if (arrayInt[j] < arrayInt[j + 1]) {
                     int tmp = arrayInt[j];
                     arrayInt[j] = arrayInt[j + 1];
-                    arrayInt[j + 1] = tmp; //
+                    arrayInt[j + 1] = tmp;
                 }
             }
-
         }
         System.out.println("Числа по убыванию:");
         for (int i = 0; i < arrayInt.length; i++) {
             System.out.print(arrayInt[i] + ",");
         }
+        }
     }
-}
 
 /*
 Напишите программу, в которой создается целочисленный
