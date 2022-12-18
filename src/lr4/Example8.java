@@ -35,6 +35,6 @@ public class Example8 {
             }
             break;
         }
-        }
-}
+    }
 
+}

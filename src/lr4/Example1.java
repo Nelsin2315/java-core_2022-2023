@@ -15,7 +15,7 @@ public class Example1 {
                 System.out.print("+");
                 z=z+1;
             }
-            System.out.println(" Количество символов в строке " + z);
+            System.out.println(" Количество символов в строке " + z + ", Строка: " + i);
         }
     }
 }

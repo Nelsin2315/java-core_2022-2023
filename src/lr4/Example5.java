@@ -22,7 +22,9 @@ public class Example5 {
             System.out.println(Arrays.toString(one[i]) + " Количество символов в строке: " + j + ", Количество столбцов: " + (i+1));
         }
 
+        System.out.println("___________________________________");
         System.out.println("Строки и стобцы меняются местами...");
+        System.out.println("___________________________________");
 
         int[][] two = new int[d][h];
 
