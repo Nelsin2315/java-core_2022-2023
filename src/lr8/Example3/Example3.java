@@ -1,6 +1,7 @@
 package lr8.Example3;
 
 import java.io.*;
+import java.nio.charset.StandardCharsets;
 
 public class Example3 {
     public static void main(String[] args) throws IOException {
@@ -11,12 +12,8 @@ public class Example3 {
             String symbol = "бБвВгГдДжЖзЗйЙкКлЛмМнНпПрРсСтТфФхХцЦчЧшШщЩ";
             br = new BufferedReader(
                     new InputStreamReader(
-                            new FileInputStream("src/lr8/Example3/Stix.txt"), "UTF8"));
-
-            File f1 = new File("src/lr8/Example3/Result.txt");
-            f1.createNewFile();
-
-            out = new PrintWriter("src/lr8/Example3/Result.txt","UTF8");
+                            new FileInputStream("src/lr8/Example3/Stix.txt"), StandardCharsets.UTF_8));
+            out = new PrintWriter("src/lr8/Example3/Result.txt", StandardCharsets.UTF_8);
 
             int str = 0;
             int words = 0;
