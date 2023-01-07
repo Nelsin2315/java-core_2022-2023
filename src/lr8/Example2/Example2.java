@@ -11,7 +11,6 @@ public class Example2 {
         Scanner in = new Scanner(System.in);
 
         try {
-            // Создание файлов:
             File f1 = new File("E:\\MyFile1.txt");
             f1.createNewFile();
             File f2 = new File("E:\\MyFile2.txt");
