@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cars>
+    <avto>
+        <Stamp>Toyota</Stamp>
+        <Model>Camri 70</Model>
+        <Year>2018</Year>
+    </avto>
+    <avto>
+        <Stamp>Opel</Stamp>
+        <Model>Astra J</Model>
+        <Year>2013</Year>
+    </avto>
+</cars>
